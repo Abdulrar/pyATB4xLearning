@@ -28,3 +28,4 @@ print(f"{table}*3={table*3}")
 print(f"{table}*10={table*10}")
 
 print(type(f"{table}*1={table}"))  # <class 'str'>
+
