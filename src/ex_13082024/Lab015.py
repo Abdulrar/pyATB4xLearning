@@ -24,7 +24,7 @@ print(full_name)
 
 
 how_many_planes_i_have = None
-print(type(how_many_planes_i_have))  # NoneType
+print(type(how_many_planes_i_have))  # NoneType  <class 'NoneType'>
 # null is not present in Python
 
 val = 0  # This is int
