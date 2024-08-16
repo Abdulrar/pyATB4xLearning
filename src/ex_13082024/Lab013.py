@@ -4,7 +4,7 @@ formated_number2 = f"{number:.4f}"
 
 print(formated_number1)
 print(formated_number2)
-print(type(formated_number1))  # <class 'str'>
+print(type(formated_number1))  # <class 'str'> ++++++++++++++++
 print(formated_number1 + formated_number2)
 
 # number = 3.14159265359
