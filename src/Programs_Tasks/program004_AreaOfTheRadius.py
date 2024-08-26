@@ -22,6 +22,7 @@ print(radius)
 print(math.pi)
 area = math.pi * math.pow(radius, 2)
 area2 = 3.14 * (radius**2)
+print(f"The area of the circle with radius {radius} is {area:.2f} square units.")
 print("Area of the circle is -> ", area)
 print("Area of the circle is -> ", area2)
 print(f"Area of the circle is -> {area:.2f}")
@@ -42,17 +43,3 @@ print('Area2 of the circle is', Area2)
 
 # single line code
 print(math.pi*(math.pow(radius5,2)))
-
-
-
-
-
-
-
-
-
-
-
-
-
-

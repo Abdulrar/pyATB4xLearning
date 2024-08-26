@@ -6,18 +6,18 @@ Task #9
 """""
 
 
-for i in range(1,101,3):
+for i in range(1, 20,3):
     print(i)
 
-for j in range(0, 101, 2):
+for j in range(0, 20, 2):
     print('-----------', j)
 
-for k in range(1, 101):
+for k in range(1, 20):
     if k% 15 == 0 :
         print("FizzBuzz")
     elif k%5 == 0 :
         print("Buzz")
     elif k % 3 == 0:
-        print("Buzz")
+        print("Fizz")
     else:
         print(k)

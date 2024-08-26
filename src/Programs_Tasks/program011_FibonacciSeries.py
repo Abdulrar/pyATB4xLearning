@@ -1,6 +1,6 @@
 # Task #11 -
-# ✅ Fibonaci series 0,0+1, 0+1+1, if n = 7 ---> 0, 1, 2, 3, 5, 8, 13
-# Fionacciseries : is the sum of first two numbers
+# ✅ Fibonacci series 0,0+1, 0+1+1, if n = 7 ---> 0, 1, 2, 3, 5, 8, 13
+# Fibonacci series : is the sum of first two numbers
 
 count = int(input('Enter the count to print Fibonacci series: '))
 firstNum = 0
