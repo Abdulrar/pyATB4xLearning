@@ -24,7 +24,7 @@ class Mother:
         return "This is from the Mother"
 
 
-class Son(Mother, Father):  # MRO - Method resolution Order
+class Son(Mother, Father):  # MRO - Method resolution Order (Diamond problem-is resolved in python)
     pass
 
 

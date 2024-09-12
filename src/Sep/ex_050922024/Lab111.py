@@ -1,4 +1,4 @@
-# Hybrid Inheritance
+# Hybrid Inheritance = Multiple + Hierarchical Inheritance
 
 # multiple types of inheritance,
 # such as single,
@@ -18,7 +18,7 @@ class C(A): # Lucky
         return "Method C"
 
 
-class D(B, C): #Sister  # Multiple, Multilevel - MRO(Method Resolution Order - First
+class D(B, C): #Sister  # Multiple, Multilevel - MRO(Method Resolution Order - First - local to global method)
     def methodD(self):
         return "Method D"
 
